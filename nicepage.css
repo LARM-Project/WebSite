@@ -36514,6 +36514,9 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -36546,11 +36549,14 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h1:not(.u-title)
         {
-        font-weight: 400;
         font-size: 3rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-weight: 400;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: Cormorant;
         }
         h2:not(.u-subtitle)
         {
@@ -36840,40 +36846,208 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
- .u-footer {
-  background-image: none;
-}
-
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 164px;
 }
 
-.u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
+.u-footer .u-layout-wrap-1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-footer .u-layout-cell-1 {
+  min-height: 180px;
+}
+
+.u-footer .u-container-layout-1 {
+  padding: 20px 30px;
+}
+
+.u-footer .u-position-1 {
+  min-height: 77px;
+  width: 300px;
+  margin: 0;
+}
+
+.u-footer .u-layout-cell-2 {
+  min-height: 194px;
+}
+
+.u-footer .u-container-layout-2 {
+  padding: 20px 30px;
+}
+
+.u-footer .u-position-2 {
+  min-height: 24px;
+  width: 300px;
+  margin: 0;
+}
+
+.u-footer .u-icon-1 {
+  width: 64px;
+  background-image: none;
+  height: 64px;
+  margin: 13px auto 0 121px;
+  padding: 6px;
+}
+
+.u-footer .u-icon-2 {
+  width: 64px;
+  height: 64px;
+  margin: -64px auto 0 39px;
+  padding: 6px;
+}
+
+.u-footer .u-icon-3 {
+  width: 64px;
+  height: 64px;
+  margin: -64px auto 0 197px;
+  padding: 6px;
+}
+
+.u-footer .u-layout-cell-3 {
+  min-height: 180px;
+}
+
+.u-footer .u-container-layout-3 {
+  padding: 20px 30px;
+}
+
+.u-footer .u-position-3 {
+  min-height: 101px;
+  width: 300px;
+  margin: 0;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 99px;
+    min-height: 339px;
+  }
+
+  .u-footer .u-layout-cell-1 {
+    min-height: 102px;
+  }
+
+  .u-footer .u-position-1 {
+    height: auto;
+    width: 233px;
+  }
+
+  .u-footer .u-layout-cell-2 {
+    min-height: 160px;
+  }
+
+  .u-footer .u-position-2 {
+    height: auto;
+    width: 233px;
+  }
+
+  .u-footer .u-icon-1 {
+    margin-left: 83px;
+  }
+
+  .u-footer .u-icon-2 {
+    margin-top: -64px;
+    margin-left: 28px;
+  }
+
+  .u-footer .u-icon-3 {
+    margin-top: -64px;
+    margin-left: 142px;
+  }
+
+  .u-footer .u-layout-cell-3 {
+    min-height: 102px;
+  }
+
+  .u-footer .u-position-3 {
+    height: auto;
+    width: 233px;
   }
 }
 @media (max-width: 991px) {
   .u-footer .u-sheet-1 {
-    min-height: 76px;
+    min-height: 284px;
+  }
+
+  .u-footer .u-position-1 {
+    width: 160px;
+  }
+
+  .u-footer .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-footer .u-position-2 {
+    width: 160px;
+  }
+
+  .u-footer .u-icon-1 {
+    margin-left: 40px;
+  }
+
+  .u-footer .u-icon-2 {
+    margin-left: 15px;
+  }
+
+  .u-footer .u-icon-3 {
+    margin-left: 81px;
+  }
+
+  .u-footer .u-position-3 {
+    width: 160px;
   }
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 57px;
+    min-height: 384px;
+  }
+
+  .u-footer .u-layout-cell-1 {
+    min-height: auto;
+  }
+
+  .u-footer .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-footer .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-footer .u-icon-1 {
+    margin-left: 220px;
+  }
+
+  .u-footer .u-icon-2 {
+    margin-left: 195px;
+  }
+
+  .u-footer .u-icon-3 {
+    margin-left: 261px;
+  }
+
+  .u-footer .u-layout-cell-3 {
+    min-height: auto;
+  }
+
+  .u-footer .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 36px;
+  .u-footer .u-icon-1 {
+    margin-left: 120px;
   }
 
-  .u-footer .u-text-1 {
-    width: 340px;
+  .u-footer .u-icon-2 {
+    margin-left: 95px;
+  }
+
+  .u-footer .u-icon-3 {
+    margin-left: 161px;
   }
 }
 

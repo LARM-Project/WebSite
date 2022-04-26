@@ -1,11 +1,11 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 615px;
+  min-height: 566px;
 }
 
 .u-section-1 .u-list-1 {
   grid-template-rows: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 1px;
 }
 
 .u-section-1 .u-repeater-1 {
@@ -21,9 +21,9 @@
 .u-section-1 .u-image-1 {
   height: 233px;
   width: 233px;
-  background-image: url("images/alex.jpeg");
+  background-image: url("images/louis1.jpeg");
   background-position: 50% 50%;
-  margin: 0 auto;
+  margin: 45px auto 0;
 }
 
 .u-section-1 .u-text-1 {
@@ -41,9 +41,9 @@
 .u-section-1 .u-image-2 {
   height: 233px;
   width: 233px;
-  background-image: url("images/louis.jpeg");
+  background-image: url("images/alex1.jpeg");
   background-position: 50% 50%;
-  margin: 0 auto;
+  margin: 45px auto 0;
 }
 
 .u-section-1 .u-text-3 {
@@ -63,7 +63,7 @@
   width: 233px;
   background-image: url("images/matthias.jpeg");
   background-position: 50% 50%;
-  margin: 0 auto;
+  margin: 45px auto 0;
 }
 
 .u-section-1 .u-text-5 {
@@ -83,7 +83,7 @@
   width: 233px;
   background-image: url("images/rohan.jpeg");
   background-position: 50% 50%;
-  margin: 0 auto;
+  margin: 45px auto 0;
 }
 
 .u-section-1 .u-text-7 {
