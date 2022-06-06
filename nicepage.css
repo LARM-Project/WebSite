@@ -36832,7 +36832,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -36841,6 +36840,10 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 
@@ -36856,16 +36859,17 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-layout-cell-1 {
-  min-height: 180px;
+  min-height: 198px;
 }
 
 .u-footer .u-container-layout-1 {
-  padding: 20px 30px;
+  padding: 20px 0;
 }
 
 .u-footer .u-position-1 {
-  min-height: 77px;
-  width: 300px;
+  min-height: 128px;
+  height: auto;
+  width: 360px;
   margin: 0;
 }
 
@@ -36906,17 +36910,18 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-layout-cell-3 {
-  min-height: 180px;
+  min-height: 198px;
 }
 
 .u-footer .u-container-layout-3 {
-  padding: 20px 30px;
+  padding: 20px 0;
 }
 
 .u-footer .u-position-3 {
   min-height: 101px;
-  width: 300px;
-  margin: 0;
+  height: auto;
+  width: 360px;
+  margin: 14px 0 0;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -36928,8 +36933,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-position-1 {
-    height: auto;
-    width: 233px;
+    width: 293px;
   }
 
   .u-footer .u-layout-cell-2 {
@@ -36960,8 +36964,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-position-3 {
-    height: auto;
-    width: 233px;
+    width: 293px;
   }
 }
 @media (max-width: 991px) {
@@ -36970,7 +36973,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-position-1 {
-    width: 160px;
+    width: 220px;
   }
 
   .u-footer .u-layout-cell-2 {
@@ -36994,7 +36997,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-position-3 {
-    width: 160px;
+    width: 220px;
   }
 }
 @media (max-width: 767px) {
@@ -37004,11 +37007,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-layout-cell-1 {
     min-height: auto;
-  }
-
-  .u-footer .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .u-footer .u-container-layout-2 {
@@ -37030,11 +37028,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-layout-cell-3 {
     min-height: auto;
-  }
-
-  .u-footer .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
 @media (max-width: 575px) {
