@@ -87,7 +87,7 @@
 }
 
 .u-section-1 .u-text-5 {
-  margin: 353px auto 0;
+  margin: 172px auto 0;
 }
 
 .u-section-1 .u-btn-5 {
@@ -96,7 +96,20 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 22px auto 60px;
+  margin: 11px auto 0;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 39px auto 0;
+}
+
+.u-section-1 .u-btn-6 {
+  font-size: 0.875rem;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 11px auto 60px;
 }
 
 @media (max-width: 1199px) {
